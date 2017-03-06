@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYb-PF-wB8">
+                    <rect key="frame" x="20" y="14" width="19" height="22"/>
+                    <state key="normal" image="btn_kaiguanzhaungtai"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开关状态" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kO-8i-24R">
+                    <rect key="frame" x="49" y="16" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eYb-PF-wB8" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="20" id="7GB-nw-h1N"/>
+                <constraint firstItem="eYb-PF-wB8" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="C44-ur-5MT"/>
+                <constraint firstItem="7kO-8i-24R" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="VqT-mM-B4J"/>
+                <constraint firstItem="7kO-8i-24R" firstAttribute="leading" secondItem="eYb-PF-wB8" secondAttribute="trailing" constant="10" id="c9D-GG-QTr"/>
+            </constraints>
+            <point key="canvasLocation" x="356" y="202"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="btn_kaiguanzhaungtai" width="19" height="22"/>
+    </resources>
+</document>
